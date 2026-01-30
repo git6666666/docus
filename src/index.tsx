@@ -3,7 +3,7 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import type {Props} from '@theme/BlogListPage';
-import styles from './styles.css';
+import styles from './styles.module.css';
 
 export default function BlogListWithCover(props: Props) {
   const {metadata, items} = props; // items = 当前页的博客列表
@@ -37,3 +37,4 @@ export default function BlogListWithCover(props: Props) {
     </Layout>
   );
 }
+
