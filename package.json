@@ -1,0 +1,26 @@
+{
+  "name": "my-blog",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A minimal Markdown-first blog built with Docusaurus (classic theme).",
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "serve": "docusaurus serve",
+    "clear": "docusaurus clear",
+    "swizzle": "docusaurus swizzle"
+  },
+  "dependencies": {
+    "@docusaurus/core": "3.9.2",
+    "@docusaurus/preset-classic": "3.9.2",
+    "@mdx-js/react": "^3.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",    
+    "clsx": "^2.1.0",
+    "prism-react-renderer": "^2.3.0"
+
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
